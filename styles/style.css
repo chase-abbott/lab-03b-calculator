@@ -40,8 +40,8 @@ section {
     align-items: center;
     padding-top: var(--gutter);
     padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
-    margin-bottom: var(--gutter);
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: solid 2px var(--color1);
 }
 
