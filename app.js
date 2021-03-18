@@ -4,7 +4,6 @@ const addSecondInput = document.getElementById("second-addition");
 const addButton = document.getElementById("addition-button");
 const addAnswer = document.getElementById("addition-answer");
 
-
 addButton.addEventListener('click', () => {
     const value1 = addFirstInput.valueAsNumber;
     const value2 = addSecondInput.valueAsNumber;
@@ -47,3 +46,4 @@ divideButton.addEventListener('click', () => {
     const divide = value1 / value2;
     divideAnswer.textContent = divide;
 })
+
