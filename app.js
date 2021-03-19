@@ -4,17 +4,20 @@ import { handleAdd,
          handleMult, 
          handleDiv} from './handlers.js'
 
-const addButton = document.getElementById("addition-button");
-addButton.addEventListener('click', handleAdd);
+// const equalsButton = document.getElementById("equals");
+// equalsButton.addEventListener('click', handleAdd, handleSub, handleMult, handleDiv)
 
-const subButton = document.getElementById("sub-button");
-subButton.addEventListener('click', handleSub);
+// const addButton = document.getElementById("addition-button");
+// addButton.addEventListener('click', handleAdd);
 
-const multButton = document.getElementById("mult-button");
-multButton.addEventListener('click', handleMult);
+// const subButton = document.getElementById("sub-button");
+// subButton.addEventListener('click', handleSub);
 
-const divideButton = document.getElementById("divide-button");
-divideButton.addEventListener('click', handleDiv);                                                                                                                
+// const multButton = document.getElementById("mult-button");
+// multButton.addEventListener('click', handleMult);
+
+// const divideButton = document.getElementById("divide-button");
+// divideButton.addEventListener('click', handleDiv);                                                                                                                
 
 
 

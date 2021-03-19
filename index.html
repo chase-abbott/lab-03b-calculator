@@ -19,38 +19,19 @@
         </div>
     </header>
     <main>
-            <section class="additon">
-                <input type= "number" id="first-addition">
-                +
-                <input type="number" id="second-addition">
-                <button id="addition-button"> add </button>
-                <div id="addition-answer"></div>
-            </section>
-            <section class="subtraction">
-                <input type="number" id="first-sub">
-                -
-                <input type="number" id="second-sub">
-                <button id="sub-button"> subtract </button>
-                <div id="sub-answer"></div>
-            </section>
-            <section class="multiplication">
-                <input type="number" id="first-mult">
-                x
-                <input type="number" id="second-mult">
-                <button id="mult-button"> multiply </button>
-                <div id="mult-answer"></div>       
-            </section>
-            <section class="division">
-                <input type="number" id="first-divide">
-                /
-                <input type="number" id="second-divide">
-                <button id="divide-button"> divide </button>
-                <div id="divide-answer"></div>
-            </section>
             <section>
-                <h4> Sum of EVERYTHING </h4>
-                <div class="sum-of-everything"></div>
+                <input type= "number" id="first">
+                <select id="drop-down">
+                    <option value="addition" id="addition"> + </option>
+                    <option value="subtraction" id="subtraction"> - </option>
+                    <option value="multiplication" id="multiplication"> x </option>
+                    <option value="division" id="division"> / </option>
+                </select>
+                <input type="number" id="second">
+                <button id="equals"> = </button>
+                <div id="answer"></div>
             </section>
+            
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
