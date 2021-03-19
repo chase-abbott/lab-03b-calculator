@@ -1,4 +1,4 @@
-// import functions and grab DOM elements
+import './handlers.js'
 const addFirstInput = document.getElementById("first-addition");
 const addSecondInput = document.getElementById("second-addition");
 const addButton = document.getElementById("addition-button");
