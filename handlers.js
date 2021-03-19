@@ -1,5 +1,8 @@
 
-import { addTwoNumbers, subTwoNumbers, multTwoNumbers, divideTwoNumbers } from './mathUtils.js'
+import { addTwoNumbers, 
+         subTwoNumbers, 
+         multTwoNumbers, 
+         divideTwoNumbers } from './mathUtils.js'
 
 const addFirstInput = document.getElementById("first-addition");
 const addSecondInput = document.getElementById("second-addition");

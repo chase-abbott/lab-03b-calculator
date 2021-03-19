@@ -1,4 +1,7 @@
-import { addTwoNumbers, subTwoNumbers, multTwoNumbers, divideTwoNumbers } from '../mathUtils.js';
+import { addTwoNumbers, 
+         subTwoNumbers, 
+         multTwoNumbers, 
+         divideTwoNumbers } from '../mathUtils.js';
 
 const test = QUnit.test;
 
