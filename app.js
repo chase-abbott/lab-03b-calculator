@@ -1,4 +1,5 @@
-import './handlers.js'
+
+import { addTwoNumbers, subTwoNumbers, multTwoNumbers, divideTwoNumbers } from './mathUtils.js';
 const addFirstInput = document.getElementById("first-addition");
 const addSecondInput = document.getElementById("second-addition");
 const addButton = document.getElementById("addition-button");
@@ -7,7 +8,7 @@ const addAnswer = document.getElementById("addition-answer");
 addButton.addEventListener('click', () => {
     const value1 = addFirstInput.valueAsNumber;
     const value2 = addSecondInput.valueAsNumber;
-    const sum = value1 + value2;
+    const sum = addTwoNumbers(value1, value2);
     addAnswer.textContent = sum;
 })
 
@@ -19,7 +20,7 @@ const subAnswer = document.getElementById("sub-answer");
 subButton.addEventListener('click', () => {
     const value1 = subFirstInput.valueAsNumber;
     const value2 = subSecondInput.valueAsNumber;
-    const sub = value1 - value2;
+    const sub = subTwoNumbers(value1, value2);
     subAnswer.textContent = sub;
 })
 
@@ -31,7 +32,7 @@ const multAnswer = document.getElementById("mult-answer");
 multButton.addEventListener('click', () => {
     const value1 = multFirstInput.valueAsNumber;
     const value2 = multSecondInput.valueAsNumber;
-    const mult = value1 * value2;
+    const mult = multTwoNumbers(value1, value2);
     multAnswer.textContent = mult;
 })
 
@@ -43,7 +44,7 @@ const divideAnswer = document.getElementById("divide-answer");
 divideButton.addEventListener('click', () => {
     const value1 = divideFirstInput.valueAsNumber;
     const value2 = divideSecondInput.valueAsNumber;
-    const divide = value1 / value2;
+    const divide = divideTwoNumbers(value1, value2);
     divideAnswer.textContent = divide;
 })
 

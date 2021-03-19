@@ -1,5 +1,5 @@
-
-import { addTwoNumbers, subTwoNumbers, multTwoNumbers, divideTwoNumbers } from './mathUtils'
+import'./mathUtils.js'
+import { addTwoNumbers, subTwoNumbers, multTwoNumbers, divideTwoNumbers } from './mathUtils.js'
 
 addTwoNumbers();
 subTwoNumbers();
