@@ -4,20 +4,23 @@ import { handleAdd,
          handleMult, 
          handleDiv} from './handlers.js'
 
-// const equalsButton = document.getElementById("equals");
-// equalsButton.addEventListener('click', handleAdd, handleSub, handleMult, handleDiv)
+const addition = document.getElementById("addition");
+const equalsButton = document.getElementById("equals");
+const subtraction = document.getElementById("subtraction");
+const multiplication = document.getElementById("multiplication");
+const division = document.getElementById("division");
 
-// const addButton = document.getElementById("addition-button");
-// addButton.addEventListener('click', handleAdd);
 
-// const subButton = document.getElementById("sub-button");
-// subButton.addEventListener('click', handleSub);
-
-// const multButton = document.getElementById("mult-button");
-// multButton.addEventListener('click', handleMult);
-
-// const divideButton = document.getElementById("divide-button");
-// divideButton.addEventListener('click', handleDiv);                                                                                                                
+if (addition) {
+    equalsButton.addEventListener('click', handleAdd);
+ } else if (subtraction) {
+    equalsButton.addEventListener('click', handleSub);
+} else if (multiplication) {
+    equalsButton.addEventListener('click', handleMult);
+} else if (division) {
+    divideButton.addEventListener('click', handleDiv); 
+};
+                                                                                                             
 
 
 
