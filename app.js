@@ -10,16 +10,21 @@ const subtraction = document.getElementById("subtraction");
 const multiplication = document.getElementById("multiplication");
 const division = document.getElementById("division");
 
-
-if (addition) {
-    equalsButton.addEventListener('click', handleAdd);
- } else if (subtraction) {
-    equalsButton.addEventListener('click', handleSub);
-} else if (multiplication) {
-    equalsButton.addEventListener('click', handleMult);
-} else if (division) {
-    equalsButton.addEventListener('click', handleDiv); 
+function doMath () {
+    if (addition) {
+        handleAdd();
+    } else if (subtraction) {
+        handleSub();
+    } else if (multiplication) {
+        handleMult();
+    } else if (division) {
+        handleDiv();
+    }
 };
+
+equalsButton.addEventListener('click', doMath);
+
+
                                                                                                              
 
 
