@@ -1,4 +1,6 @@
-// import functions and grab DOM elements
+
+import { handleAdd, handleSub, handleMult, handleDiv} from './handlers.js'
+
 const addFirstInput = document.getElementById("first-addition");
 const addSecondInput = document.getElementById("second-addition");
 const addButton = document.getElementById("addition-button");
@@ -7,8 +9,9 @@ const addAnswer = document.getElementById("addition-answer");
 addButton.addEventListener('click', () => {
     const value1 = addFirstInput.valueAsNumber;
     const value2 = addSecondInput.valueAsNumber;
-    const sum = value1 + value2;
+    const sum = handleAdd;
     addAnswer.textContent = sum;
+    // can set sum = handleAdd once figured out
 })
 
 const subFirstInput = document.getElementById("first-sub");
