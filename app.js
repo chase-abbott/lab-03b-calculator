@@ -18,7 +18,7 @@ if (addition) {
 } else if (multiplication) {
     equalsButton.addEventListener('click', handleMult);
 } else if (division) {
-    divideButton.addEventListener('click', handleDiv); 
+    equalsButton.addEventListener('click', handleDiv); 
 };
                                                                                                              
 
